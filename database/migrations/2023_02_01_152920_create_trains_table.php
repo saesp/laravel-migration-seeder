@@ -19,6 +19,7 @@ return new class extends Migration {
             $table->string('arrival_place');
             $table->dateTime('departure_time');
             $table->dateTime('arrival_time');
+            $table->smallInteger('number_stops');
             $table->timestamps();
         });
     }
